@@ -13,14 +13,16 @@
         <div class="col-md-3">
             <form id ="city-form">
                 <label for="city">City Name</label>
-                <input name="search" id="city-search" type="text" placeholder="Enter City Name" required></input>
-                <button type="submit" class='submitBtn'>Search</button>
+                <input id="city-search" type="text" placeholder="Enter City Name" required></input>
+                <button type="submit" id="button" class='submitBtn'>Search</button>
             </form>
         </div>
-
+        <div class="result"></div>
+        <div class="weatherForecast"></div>
     </div>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="assets/script/script.js"></script>
 </body>
 </html>
